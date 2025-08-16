@@ -5,6 +5,7 @@
 
 namespace MuhammadTashfeen\LaraAuthpem\Tests;
 
+use MuhammadTashfeen\LaraAuthpem\Providers\AuthServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
@@ -20,6 +21,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
+            AuthServiceProvider::class,
         ];
     }
 

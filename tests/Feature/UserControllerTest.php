@@ -11,6 +11,7 @@ class UserControllerTest extends TestCase
 {
     public function testUnauthorizedUserIsBlocked(): void
     {
-        $this->assertTrue(false);
+        $resp = $this->getJson('/users');
+        $resp->assertSuccessful();
     }
 }

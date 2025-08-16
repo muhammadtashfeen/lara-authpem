@@ -30,5 +30,12 @@
         "allow-plugins": {
             "kylekatarnls/update-helper": false
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MuhammadTashfeen\\LaraAuthpem\\AuthServiceProvider"
+            ]
+        }
     }
 }
