@@ -4,6 +4,8 @@
 control** to your Laravel applications.  
 With LaraAuthpem, you can easily protect routes, controllers, and actions by simply attaching PHP attributes. 🛡️
 
+![Tests](https://github.com/muhammadtashfeen/lara-authpem/actions/workflows/tests.yml/badge.svg)
+
 ---
 
 ## ✨ Features
