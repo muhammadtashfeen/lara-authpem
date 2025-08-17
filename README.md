@@ -1,6 +1,7 @@
 # 🚀 LaraAuthpem
 
-**LaraAuthpem** is a Laravel package for **flexible role & permission management**, bringing **attribute-based access control** to your Laravel applications.  
+**LaraAuthpem** is a Laravel package for **flexible role & permission management**, bringing **attribute-based access
+control** to your Laravel applications.  
 With LaraAuthpem, you can easily protect routes, controllers, and actions by simply attaching PHP attributes. 🛡️
 
 ---
@@ -48,7 +49,8 @@ public function getPermissions(): array
 }
 ```
 
-> ⚡ How these arrays are populated is **entirely up to you** — they can come from the database, config, or any custom logic.  
+> ⚡ How these arrays are populated is **entirely up to you** — they can come from the database, config, or any custom
+> logic.  
 > The important part is that they **always return arrays** of role names and permission names.
 
 ---
@@ -87,6 +89,16 @@ Run PHPUnit tests:
 ```bash
 vendor/bin/phpunit
 ```
+
+---
+
+## ⚙️ Compatibility
+
+- PHP: ^8.3
+- Laravel: 10.x
+- PHPUnit: ^11.0 (for testing)
+- Orchestra Testbench: ^9.5 (for testing)
+- Laravel Pint: dev-main (optional, for code style)
 
 ---
 
