@@ -16,8 +16,8 @@ class PermissionService
             return false;
         }
 
-        $permissions = $user->getPermissions();
-        if (is_array($permissions) && in_array($permission, $permissions)) {
+        $permissions = $user->getPermissions() ?? [];
+        if (in_array($permission, $permissions)) {
             return true;
         }
 
