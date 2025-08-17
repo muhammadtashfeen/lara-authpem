@@ -1,10 +1,7 @@
 <?php
+
 /**
  * @author Muhammad Tashfeen
- * @copyright 2025 GAIA AG, Hamburg
- * @package pp
- *
- * Created using PhpStorm at 17.08.25 08:36
  */
 
 namespace MuhammadTashfeen\LaraAuthpem\Services;

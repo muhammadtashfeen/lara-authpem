@@ -1,6 +1,7 @@
 <?php
+
 /**
- * @author    Muhammad Tashfeen
+ * @author Muhammad Tashfeen
  */
 
 namespace MuhammadTashfeen\LaraAuthpem\Tests\Feature;
